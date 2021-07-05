@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Nova Round', cursive;
+    color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    background: rgb(0, 0, 0, 0.5) url(../img/acoustic-guitar.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 80px;
+    background: linear-gradient(to top, transparent, rgb(0, 0, 0, 0.2));
+}
+
+header .logo {
+    float: left;
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.logo img {
+    width: 50px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.logo a {
+    color: white;
+    font-size: 1.5em;
+}
+
+header .menu {
+    float: right;
+    margin-top: 5px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a:hover {
+    color: rgba(255, 255, 255, 0.473);
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 24px;
+    letter-spacing: 1px;
+}
+
+.content {
+    width: 60%;
+    padding: 20px 10px;
+}
+
+.content h1 {
+    margin-top: 130px;
+    font-size: 3em;
+}
+
+.content p {
+    float: left;
+    font-size: 1.1em;
+    padding: 25px 0;
+    font-weight: 300;
+    text-align: justify;
+    color: #fff;
+    width: 68%;
+}
+
+.content .btn-group {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.content a {
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 50px;
+}
+
+.content a.colorb {
+    background-color: #ffc107;
+}
+
+.content a:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.intro {
+    background-color: rgba(0, 128, 128, 0.829);
+    padding: 60px 90px 400px 100px;
+    color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.intro h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.5em;
+}
+
+.intro img {
+    width: 150px;
+}
+
+.cesq {
+    float: left;
+    width: 42%;
+    text-align: justify;
+    margin-top: 60px;
+}
+
+.guitar-img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cdir {
+    float: right;
+    width: 42%;
+    text-align: justify;
+    margin-top: 60px;
+}
+
+.imgs {
+    background-image: linear-gradient(-120deg, #ffc107b6, #ffc1078c, rgba(0, 128, 128, 0.678), rgba(0, 128, 128, 0.829));
+    padding: 100px;
+    border-radius: 2px;
+}
+
+.imgs h3 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+div.videos {
+    padding: 30px;
+}
+
+div.videos p {
+    font-size: 1.2em;
+}
+
+div.videos h2 {
+    color: black;
+}
+
+div.videos iframe {
+    margin-left: 30px;
+}
+
+.testimonials {
+    padding: 50px 20px 70px 20px;
+    margin-bottom: 0;
+}
+
+.testimonials h2 {
+    color: black;
+    font-family: roboto, sans-serif;
+    margin-top: 10px;
+}
+
+.img-b {
+    width: 100%;
+}
+
+.convert {
+    background-color: rgba(0, 128, 128, 0.829);
+    padding: 80px;
+    margin-bottom: 10px;
+}
+
+.convert h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.convert span {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.btngroup {
+    margin-top: 20px;
+}
+
+.btngroup a {
+    color: white;
+    font-size: 1.5em;
+    border-radius: 50px;
+    background-color: #ffc107;
+    padding: 15px;
+}
+
+.btngroup a:hover {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+@media screen and (max-width: 720px) {
+    .content {
+        width: 90%;
+        padding: 20px 10px;
+    }
+    .content h1 {
+        margin-top: 130px;
+        font-size: 2em;
+    }
+    .content p {
+        float: left;
+        font-size: 1em;
+        padding: 25px 0;
+        font-weight: 300;
+        text-align: justify;
+        color: #fff;
+        width: 90%;
+    }
+    .content .btn-group {
+        margin-top: 10px;
+        font-size: 0.6em;
+    }
+    .content a {
+        display: inline-block;
+        padding: 15px 45px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 900;
+        border-radius: 50px;
+    }
+    .content a.colorb {
+        background-color: #ffc107;
+    }
+    .content a:hover {
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.644);
+    }
+    .intro {
+        padding: 60px 90px 550px 100px;
+        color: white;
+        border-radius: 0 0 5px 5px;
+    }
+}
